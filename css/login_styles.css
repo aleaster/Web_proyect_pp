@@ -5,6 +5,33 @@ body {
   align-items: center;
 }
 
+p {
+  position: relative;
+  color: white;
+  font-size: 12pt;
+  width: 200px;
+  left: 50px;
+  top: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.animate__animated.animate__fadeInLeft {
+  animation-delay: 1s;
+}
+
+.animate__animated.animate__fadeIn {
+  animation-delay: 1.5s;
+}
+
 #main {
   position: absolute;
   width: 70vw;
@@ -38,32 +65,42 @@ body {
   left: 50px;
 }
 
-p {
-  position: relative;
-  color: white;
-  font-size: 15pt;
-  width: 200px;
-  left: 50px;
-  top: 200px;
-}
-
-.animate__animated.animate__fadeInLeft {
-  animation-delay: 1s;
-}
-
-.animate__animated.animate__fadeIn {
-  animation-delay: 1.5s;
-}
-
 #contenmelo {
   color: black;
   font-style: bold;
   grid-column: 3/5;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#lo {
+  font-size: 40pt;
+  border-bottom: 5px solid black;
+}
+
+#ing {
+  border: none;
+  margin-top: 40px;
+  border-radius: 30px;
+  height: 60px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+#reg {
+  border: none;
+  margin-top: 40px;
+  border-radius: 30px;
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=login_styles.css.map */
