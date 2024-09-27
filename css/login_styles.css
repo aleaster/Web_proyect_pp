@@ -24,8 +24,7 @@ body {
 #nigga2 {
   column-gap: 0;
   height: 100%;
-  grid-column: 2/4;
-  display: grid;
+  grid-column: 2/3;
   grid-template-rows: 50% 50%;
   background-color: black;
   clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 100%);
@@ -34,25 +33,37 @@ body {
 #wel {
   position: absolute;
   color: white;
-  font-size: 44pt;
-  border: 2px solid white;
+  font-size: 36pt;
   width: 200px;
-  left: 30px;
+  left: 50px;
 }
 
 p {
   position: relative;
   color: white;
   font-size: 15pt;
-  border: 2px solid white;
   width: 200px;
   left: 50px;
-  top: 130px;
+  top: 200px;
 }
 
-#lo {
+.animate__animated.animate__fadeInLeft {
+  animation-delay: 1s;
+}
+
+.animate__animated.animate__fadeIn {
+  animation-delay: 1.5s;
+}
+
+#contenmelo {
   color: black;
   font-style: bold;
+  grid-column: 3/5;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=login_styles.css.map */
